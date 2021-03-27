@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Foundation
+   ========================================================================== */
+
+/* Reset
+   ----------------------------------------------------------------- */
+
+   html, body, div, … { … }
+
+   /* Base
+      ----------------------------------------------------------------- */
+   
+  body {
+    width: 1400px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #d7003a;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #btn {
+    background-color: #d7003a;
+    color: #f3f3f5;
+    width: 496px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+  }
+  .submit-btn {
+    background-color: #d7003a;
+    color: #f3f3f5;
+    width: 496px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+  }
+  
+   /* ==========================================================================
+      Layout
+      ========================================================================== */
+   
+   /* Header
+      ----------------------------------------------------------------- */
+   
+   #header { … }
+   
+   /* Main
+      ----------------------------------------------------------------- */
+   
+   #main { … }
+   
+   .contact-wrapper {
+    width: 1400px;
+    height: 380px;
+   }
+   #modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #333;
+
+   }
+   .contact-modal {
+     width: 1000px;
+     height: 1024px;
+     margin: 0 auto;
+     text-align: center;
+     background-color: #f3f3f5;
+   }
+   .back-btn {
+     float: right;
+   }
+   /* ==========================================================================
+      Object
+      ========================================================================== */
+   
+   /* Component
+      ----------------------------------------------------------------- */
+   
+   /**
+    * Button
+    *
+    * Blah Blah Blah
+    */
+   
+   .c-btn { … }
+   .c-btn--primary {
+     ...
+   }
+   
+   /**
+    * Media
+    */
+   
+   .c-media { … }
+   .c-media__image {
+     ...
+   }
+   
+   /* Project
+      ----------------------------------------------------------------- */
+   
+   /**
+    * Articles
+    */
+   
+   .p-articles { … }
+   .p-article {
+     ...
+   }
+   .p-article__title {
+     ...
+   }
+   
+   /* Utility
+      ----------------------------------------------------------------- */
+   
+   /**
+    * Clearfix
+    */
+   
+   .u-clearfix {
+     ...
+   }
+   
+   /**
+    * Display
+    */
+   
+   .u-block {
+     ...
+   }
+   
+   /**
+    * Margin
+    */
+   
+   .u-mbs { /* Margin-Bottom: Small; */
+     ...
+   }
+;}  
